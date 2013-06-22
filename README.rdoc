@@ -1,6 +1,10 @@
 = rails_email_validator
 
-http://travis-ci.org/phatworx/rails_email_validator.png
+{<img src="https://travis-ci.org/fny/rails_email_validator.png" />}[https://travis-ci.org/fny/rails_email_validator]
+
+{<img src="https://gemnasium.com/fny/rails_email_validator.png" alt="Dependency Status" />}[https://gemnasium.com/fny/rails_email_validator]
+
+{<img src="https://codeclimate.com/github/fny/rails_email_validator.png" />}[https://codeclimate.com/github/fny/rails_email_validator]
 
 == Installation
 Add the following line to your Gemfile
