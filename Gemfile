@@ -9,7 +9,7 @@ group :development do
   gem "bundler", "~> 1.1.0"
   gem "jeweler", "~> 1.8.2"  
   gem 'simplecov', '>= 0.3.8', :require => false
-  gem "idn", :git => "git://github.com/mihu/idn.git"
+  gem "simpleidn"
   gem "rspec", "~> 2.10.0"
   gem "yard", "~> 0.6.0"
 end

@@ -25,11 +25,9 @@ class EmailValidation
     if allow_idn?(options)
       # idn suport if available
       begin
-        require 'idn'
+        require 'simpleidn'
         # encode domain part
-        return IDN::Idna.toASCII(domain_part)
-      rescue LoadError
-      rescue IDN::Idna::IdnaError
+        return SimpleIDN.to_ascii(domain_part)
       end
     end
     domain_part
